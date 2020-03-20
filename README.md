@@ -19,7 +19,7 @@ Yes, this is mainly a port of those files to enable the import/export of .ac fil
 open the blender/x.x/scripts/addons folder, then pull the io_scene_ac3d folder into the addons folder of blender. There's an alternative location you can drop it, at ~/.blender/x.x/scripts/addons (linux) or c:\Users\[username]\AppData\Roaming\Blender Foundation\Blender\x.x\scripts\addons (Windows 7+), where x.x is the version of Blender and [username] is the Windows user name.
 
 ## I can't see it in the import/export menu!
-You'll need to enable the script in the user preferences window after installing it - open the user preferences window (File->User Preferences or Ctrl-Alt-U) and then go to the Add-on tab, click the button for Import-Export and then check the box on the right of "Import-Export: AC3D (.ac)"
+You'll need to enable the script in the user preferences window after installing it - open the user preferences window (Edit->Preferences in Blender 2.80+ or File->User Preferences in older versions) and then go to the Add-on tab, click the button for Import-Export and then check the box on the right of "Import-Export: AC3D (.ac)"
 
 ## Uh, I've done all that how do I use it?
 Go to File->Import->AC3D (.ac), select a file and let it do the work
